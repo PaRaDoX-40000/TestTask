@@ -8,7 +8,7 @@ public class GameNetwork : NetworkManager
 {
     [SerializeField] private Transform[] _spavPoints;
     [SerializeField] private PlayerCollection _playerCollection;     
-    private string _nickname;
+    private string _nickname = "Player";
 
     private List<string> _nicknames = new List<string>();
    
